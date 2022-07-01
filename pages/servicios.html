@@ -6,16 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CCB Contabilidad</title>
   <link rel="stylesheet" href="../assets/fontawesome/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body class="grid-container">
   
 <!-- inicio header+logo+menu --> 
-
 <header class="sticky header">
   <div class="top-bar">
     <div class="container">
-      <div class="flex-sb">
+      <div class="flex-sb grid-sb">
           <div class="flex top-bar__div">
             <i class="fa fa-map-marker" aria-hidden="true"></i>
             <p>Chiloe 4050- San miguel</p>
@@ -37,28 +37,29 @@
     </div>
   </div>
 
-  <div class="logo-nav">     
-      <div class="container">
-        <div class="flex">
-            <div class="logo-nav__img">
-              <img src="../assets/img/logo.png" alt="logo">
-            </div>
-
-            <nav class="logo-nav__menu">
-              <ul class="flex">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="planillas.html">Planillas</a></li>
-                <li class="btn-orange"><a  href="contacto.html">Contacto</a></li>
-              </ul>
-              </ul>
-            </nav>
+  <nav class="navbar navbar-expand-lg bg-light logo-nav">
+    <div class="container">
+      <div class="logo-nav__img">
+        <img src="../assets/img/logo.png" alt="logo">
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="logo-nav__menu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 flex">
+            <li  class="nav-item"><a href="../index.html">Home</a></li>
+            <li class="nav-item"><a href="../pages/nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a href="../pages/servicios.html">Servicios</a></li>
+            <li class="nav-item"><a href="../pages/planillas.html">Planillas</a></li>
+            <li class="btn-orange nav-item""><a  href="../pages/contacto.html">Contacto</a></li>
+          </ul>
         </div>
       </div>
-  </div>
+    </div>
+  </nav>
 </header>
-   <!-- fin header+logo+menu  -->
+<!-- fin header+logo+menu  -->
 
 <!-- inicio hero+nosotros-->
 <main class="main">
@@ -77,7 +78,7 @@
 <!-- fin hero -->
 
 
-   
+ 
   
 
   <!-- inicio footer -->
@@ -148,5 +149,6 @@
    </div>
  </footer>
    <!-- fin footer -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -376,18 +376,43 @@ body{
   }
 
 
-/*----------------fagina servicios-----------------*/
+/*----------------pagina servicios-----------------*/
 
 .div-serv{
     margin-top: 30px;
     margin-bottom: 30px;
+    
 }
     .div-serv button{
-
       margin-top: 10px;
     }
+    .div-serv-txt{
+       color:#fff ;
+    }
 
+        .div-serv-txt h3{
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+        .div-serv-txt li{
+         padding-right:50px;
+        }
 
+/*----------------pagina planillas-----------------*/
+
+.cont-planillas{
+  margin-top: 20px;
+  margin-bottom: 5px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+    .cont-planillas__div{
+      width: 33.33333%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
 
 

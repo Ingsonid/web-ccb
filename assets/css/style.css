@@ -1,5 +1,19 @@
+.top-bar {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right, #00477b 0%, #0064ab 100%); }
+  .top-bar .top-bar__div {
+    align-items: center; }
+  .top-bar .top-bar__div i, .top-bar .top-bar__div p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    color: #fff;
+    font-size: 14px; }
 
-/*-------------------- Base--------------------------------- */
+    /*-------------------- Base--------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300;400&display=swap');
 
@@ -74,7 +88,7 @@ body{
 
 /*-------------header (top-bar)---------------------------------*/
 
-.top-bar{
+/* .top-bar{
   margin: 0;
   padding-top: 10px;
   padding-bottom:  10px;
@@ -90,7 +104,7 @@ body{
           margin-right: 2px;
           color: #fff;
           font-size: 14px;
-        }
+        } */
 
 /*-------------header (logo-nav)---------------------------------*/
 

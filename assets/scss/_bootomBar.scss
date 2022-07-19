@@ -1,0 +1,13 @@
+.bootom-bar{
+  background-color:$color10;
+  background:linear-gradient(to right,$color12 0%, $color6 100%);
+  font-size: 13px;
+  text-align: center;
+  color:$color13;
+
+    .bootom-bar__items{
+      @include padd (15px,15px);
+    }
+}
+ 
+    

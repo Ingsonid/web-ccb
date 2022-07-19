@@ -1,0 +1,75 @@
+/*-------------main (hero) index.html---------------------------------*/
+
+.hero__div{
+  background: linear-gradient(to right, #4274a2d9 0%, #2a6697a9 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 100%;
+  color: #fff;
+
+      h1{
+        padding: 30px;
+        text-transform: uppercase;
+        font-size: 40px;
+      }
+
+      a{
+        margin: 20px;
+        padding-left: 28px;
+        padding-right: 28px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        background:linear-gradient(to right, #f46711 0%, #f5833c 100%);
+        border: #f5833c 0.5px solid; 
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+
+              &:visited{
+                color:#fff;
+              }
+              
+              &:hover{
+                background:linear-gradient(to right, #f4681100 0%, #f5833c00 100%);
+                color: #f46711;
+              }
+      }    
+  }
+
+  .hero-div__img{
+   background-image: url("../img/hero.png");
+   background-size: cover;
+  }
+
+  .hero__div_cont{
+   text-align: center;
+  }
+
+    
+
+
+/* -------main (hero) nosotros.html- contacto.html -planillas.html-servicios.html------------------- */
+
+.pages-hero__div{
+ background: linear-gradient(to right, #4273a2 0%, #2a6697 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+ align-items: center;
+ height: 300px;
+ width: 100%;
+ color: #fff;
+ font-size: 30px;
+
+      h2{
+        padding: 30px;
+        font-weight: 600;
+        
+      }
+ }
+
+ .pages-hero__img{
+ background-image: url("../img/hero.png");
+ }
+
+   .pages-hero__div_cont{
+   text-align: left;
+   }

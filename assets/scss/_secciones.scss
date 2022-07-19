@@ -1,0 +1,210 @@
+      /*----------  seccion nosotros   nosotros.html ---------- */
+
+      .nosotros-text{
+        width: 50%;
+        text-align: center;
+
+            h2{
+              margin-top: 50px;
+              margin-bottom: 50px;
+              color: #0064ab ;
+            }
+
+            p{
+              text-align: justify;
+              padding-right:30px;
+              margin-bottom: 20px;
+              /* margin-right: 50px; */
+            }
+       }
+    
+       
+      .nosotros-img{
+        width: 50%;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+
+          img{
+            width: 100%;
+            position: relative;
+            z-index: -1;
+    
+            }
+
+
+            .nosotros-img__color{
+              background: linear-gradient(to right, #16336558 0%, #1164f456 24%, rgba(124, 185, 233, 0) 96%, rgba(125, 185, 232, 0) 100%);
+              }
+          }
+
+    
+    /*-------------servicios index.html---------------------------------*/
+    
+      .servicios h3{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+    
+      .servicios-container{
+        display: map-get($disp,display);
+        flex-wrap: map-get($disp , flex-wrap );
+        justify-content: map-get($disp, justify-content );
+
+
+            .servicios__div{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              margin: 4px;
+              box-sizing: border-box;
+              height: 100px;
+              width: 32.333%;
+              color: #fff;
+
+                    img{
+                      height: 55px;
+                      width:55px;
+                    }
+
+                    p{
+                      padding-left: 30px;
+                     }
+            }
+
+      }
+    
+            
+    
+    /*----------------galeria-sitios deinteres index.html-----------------*/
+    
+    .sitios h3{
+      text-align: center;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .sitios__galery{
+     
+      @extend .servicios-container;
+
+        .sitios__galery__div{
+          display: flex;
+          justify-content: center;
+          height: 150px;
+          width: 33.333%;
+              img{
+                height: 100px;
+                width: 150px;
+                padding: auto;
+              }
+        }
+    }
+    
+        
+  
+    
+     /*----------------menu servicios.html-----------------*/
+    
+    // .menu{
+    //   width: 25%;
+    //   color:#0064ab;
+    // }
+    
+    //   .menu__div{
+    //     display: flex;
+    //     align-items: center;
+    //     margin-bottom: 10px;
+    //     margin-top: 10px;
+    //     padding: 5px;
+    //     border-radius: 8px;
+    //     border:#0064ab 3.5px solid;
+    //   }
+    //       .menu__div:hover{
+    //         color: #fff;
+    //         background-color:#0064ab;
+    //       }
+    
+    //       .menu__div p{
+    //         padding-left: 5px;
+    //         font-weight:bold;
+    //       }
+    //           /* .menu__div p:hover{
+                
+    //           } */
+    
+    //       .menu img{
+    //         height: 45px;
+    //         width: 45px;
+    //       }
+    
+    // .contenido{
+    //   width: 75%;
+    // }
+    
+    //   .cont-1{
+    //     display: block;
+    //   }
+    //   .cont-2{
+    //     display: none;
+    //   }
+    //   .cont-3{
+    //     display: none;
+    //   }
+    //   .cont-4{
+    //     display: none;
+    //   }
+    //   .cont-5{
+    //     display: none;
+    //   }
+    
+    
+    /*----------------pagina servicios-----------------*/
+    
+    .div-serv{
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+            button{
+              margin-top: 10px;
+            }
+
+            .div-serv-txt{
+              color:#fff ;
+
+                  h3{
+                  text-align: center;
+                  margin-top: 20px;
+                  margin-bottom: 20px;
+                  }
+
+                  li{
+                  padding-right:50px;
+                  }
+           }
+    }
+     
+       
+    
+            
+    
+    /*----------------pagina planillas-----------------*/
+    
+    .cont-planillas{
+      margin-top: 20px;
+      margin-bottom: 5px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+        // .cont-planillas__div{
+        //   width: 33.33333%;
+        //   display: flex;
+        //   align-items: center;
+        //   justify-content: center;
+        // }
+    
+       
+   
+    
+    

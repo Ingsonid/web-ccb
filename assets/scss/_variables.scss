@@ -1,0 +1,21 @@
+$color10: #003052;
+$color12:#00223a;
+$color6:#004271;
+$color13:rgba(255, 255, 255, 0.7);
+
+
+// maps
+
+$disp:(
+  display: flex,
+  flex-wrap:wrap,
+  justify-content: center,
+);
+
+
+// mixins
+
+@mixin padd($pad-top,$pad-bootom) {
+  padding-top: $pad-top;
+  padding-bottom: $pad-bootom;
+}

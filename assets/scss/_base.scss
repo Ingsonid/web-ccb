@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300;400&display=swap');
+
+
+
+body{
+  background: #f0f3f56f
+}
+
+.color1{
+  background:linear-gradient(to right, #00477b 0%, #0064ab 100%);
+  border: #0064ab 0.5px solid; 
+ }
+.color2{
+  background:linear-gradient(to right, #6d0142df 0%, #a20563df 100%);
+  border: #a20563df  0.5px solid; 
+}
+.color3{
+  background:linear-gradient(to right, #652b01ea 0%, #ad4b06ea 100%);
+  border: #ad4b06ea 0.5px solid; 
+}
+.color4{
+  background:linear-gradient(to right, #676502 0%, #c3c005 100%);
+  border: #c3c005 0.5px solid; 
+}
+.color5{
+  background:linear-gradient(to right, #02552e 0%, #039c55 100%);
+  border: #039c55 0.5px solid; 
+}
+
+.color6{
+  background:linear-gradient(to right, #003357 0%, #024b7f 100%);
+  border: $color6 0.5px solid; 
+}
+
+.sticky{
+   position:sticky;
+   top:0;
+   z-index: 1;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+
+}
+
+.flex{
+   display:flex;
+}
+
+.flex-sb{
+  display: flex;
+  justify-content: space-between;
+}
+
+.justify{
+  text-align: justify;
+}
+
+.center{
+  text-align: center;
+}
+
+ /*----------------CSS GRID archivo: indez-grid.html-----------------*/
+    
+    
+ .grid-container{
+    
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header"
+                       "main"
+                       "footer";
+    .header{
+      grid-area:header;
+    }
+
+    .main{
+      grid-area:main;
+    }
+
+    .footer{
+      grid-area:footer;
+    }
+}   
+
+   

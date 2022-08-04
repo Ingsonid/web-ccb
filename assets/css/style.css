@@ -94,7 +94,18 @@ body {
 .top-bar .top-bar__div {
   align-items: center;
 }
-.top-bar .top-bar__div i, .top-bar .top-bar__div p {
+.top-bar .top-bar__div i {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+  margin-right: 2px;
+  color: #fff;
+  font-size: 14px;
+}
+.top-bar .top-bar__div i:hover {
+  color: #f2823c;
+}
+.top-bar .top-bar__div p {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 2px;
@@ -277,6 +288,7 @@ body {
 }
 .servicios-container .servicios__div p, .sitios__galery .servicios__div p {
   padding-left: 30px;
+  margin-bottom: 0;
 }
 
 /*----------------galeria-sitios deinteres index.html-----------------*/
@@ -387,7 +399,7 @@ body {
 
 .footer {
   background: linear-gradient(to right, #00355a 0%, #0064ab 100%);
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .footer .footer-div {
   display: block;
@@ -414,10 +426,10 @@ body {
 }
 .footer .footer-div a {
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .footer .footer-div a:visited {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .footer .footer-div a:hover {
   color: #f5833c;
@@ -426,14 +438,18 @@ body {
   padding-left: 20%;
 }
 .footer .footer-div__list .footer-div__list-cont i {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7019607843);
   font-size: 16px;
 }
 .footer .footer-div__list .footer-div__list-cont p {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7019607843);
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 8px;
+}
+.footer .footer-div__list .footer-div__list-cont a {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .bootom-bar {
@@ -441,11 +457,14 @@ body {
   background: linear-gradient(to right, #00223a 0%, #004271 100%);
   font-size: 13px;
   text-align: center;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.7019607843);
 }
 .bootom-bar .bootom-bar__items {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.bootom-bar .bootom-bar__items p {
+  margin-bottom: 0;
 }
 
 /*----------------responsive desing-----------------*/
@@ -454,6 +473,7 @@ body {
     width: 480px;
   }
   .flex {
+    display: flex;
     flex-wrap: wrap;
   }
   .flex-sb {
@@ -469,7 +489,6 @@ body {
   }
   .top-bar__div p {
     margin-right: 10px;
-    padding-bottom: 5px;
   }
   /* ------nav-menu------- */
   .logo-nav {
@@ -481,16 +500,26 @@ body {
     margin-top: 8px;
     margin-bottom: 0px;
   }
+  .logo-nav__img img {
+    height: 25px;
+  }
   .logo-nav__menu {
-    height: 50px;
+    height: auto;
     margin-left: 0;
   }
   .logo-nav__menu a {
     font-size: 13px;
   }
+  .logo-nav__menu .btn-orange {
+    margin-top: 8px;
+    margin-bottom: 0px;
+  }
   /* ------servicios------- */
   .servicios__div {
     width: 100%;
+  }
+  .servicios__div p {
+    margin-bottom: 0;
   }
   /* ------servicios------- */
   .sitios__galery__div {
@@ -499,10 +528,10 @@ body {
   }
   /* ------Footer------- */
   .footer-div {
-    width: 50%;
+    width: 50% !important;
   }
   .footer-div__list {
-    padding-left: 7.5%;
+    padding-left: 7.5% !important;
   }
   .footer-div__list-cont p {
     margin-left: 2px;
@@ -520,5 +549,8 @@ body {
   .nosotros-img {
     width: 100%;
     padding: 2px;
+  }
+  .servicios__div {
+    width: 100% !important;
   }
 }/*# sourceMappingURL=style.css.map */

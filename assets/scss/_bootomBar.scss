@@ -7,6 +7,10 @@
 
     .bootom-bar__items{
       @include padd (15px,15px);
+
+        p{
+             margin-bottom: 0;
+        }
     }
 }
  

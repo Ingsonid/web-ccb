@@ -49,17 +49,26 @@
   .footer-div__list {
     padding-left:20%;
 
-    .footer-div__list-cont i {
-      color:$color13;
-      font-size: 16px;
+    .footer-div__list-cont {
+    
+        i {
+          color:$color13;
+          font-size: 16px;
+        }
+
+        p{
+          color:$color13;
+          margin-top: 0;
+          margin-bottom: 0;
+          margin-left: 8px;
+        }
+
+        a{
+          padding-left: 5px;
+          padding-right: 5px;
+        }
     }
 
-    .footer-div__list-cont p{
-      color:$color13;
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: 8px;
-    }
   }  
 
 }

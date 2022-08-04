@@ -6,15 +6,31 @@
 
   .top-bar__div{
     align-items: center;
-  }
 
-  .top-bar__div i, .top-bar__div p{
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 2px;
-    margin-right: 2px;
-    color: #fff;
-    font-size: 14px;
+                    i{
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 2px;
+            margin-right: 2px;
+            color: #fff;
+            font-size: 14px;
+
+                      &:hover{
+                        color:$color14 ;
+                      }
+            }
+
+            p{
+              margin-top: 0;
+              margin-bottom: 0;
+              margin-left: 2px;
+              margin-right: 2px;
+              color: #fff;
+              font-size: 14px;
+              }
+  
+
+  
   }
 
 }

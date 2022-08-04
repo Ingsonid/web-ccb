@@ -8,6 +8,7 @@
   }
 
   .flex{
+    display: flex;
     flex-wrap: wrap;
   }
   .flex-sb{
@@ -28,7 +29,7 @@
 
   .top-bar__div p{
     margin-right: 10px;
-    padding-bottom: 5px;
+    // padding-bottom: 5px;
   }
 
  /* ------nav-menu------- */
@@ -42,21 +43,39 @@
     margin-right: auto;
     margin-top: 8px;
     margin-bottom: 0px;
+
+      img{
+        height: 25px;
+      }
   }
 
   .logo-nav__menu {
-    height: 50px;
+    height: auto;
     margin-left: 0;
 
         a {
           font-size: 13px;
         }
+
+        .btn-orange{
+          margin-top: 8px;
+          margin-bottom: 0px;
+        }
+
+        // .navbar-nav{
+
+        //  padding-top:50px;
+        // }
   }
 
      /* ------servicios------- */
 
   .servicios__div{
     width: 100%;
+
+        p{
+          margin-bottom: 0;
+        }
   }
 
     /* ------servicios------- */
@@ -70,10 +89,10 @@
      /* ------Footer------- */
      .footer-div{
 
-      width: 50%;
+      width: 50% !important;
      }
         .footer-div__list{
-          padding-left: 7.5%;
+          padding-left: 7.5% !important;
         }
         
         .footer-div__list-cont p{
@@ -99,5 +118,10 @@
 .nosotros-img{
   width: 100%;
   padding: 2px;
+}
+
+
+.servicios__div{
+width: 100% !important;
 }
 }

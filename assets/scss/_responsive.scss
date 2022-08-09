@@ -1,6 +1,6 @@
 
 
-     /*----------------responsive desing-----------------*/
+     /*----------------responsive celular----------------*/
 @media screen and (max-width: 480px){
 
   .container{
@@ -74,11 +74,7 @@
           margin-bottom: 0px;
         }
 
-        // .navbar-nav{
-
-        //  padding-top:50px;
-        // }
-  }
+     
 
      /* ------servicios------- */
 .nav{
@@ -104,12 +100,8 @@
           }
     }
     /* ------servicios------- */
-
-    .sitios__galery__div {
-
-    width: 50%;
-    height: 110px;
-    }
+  
+   
 
     .d-flex{
       display: inline !important;
@@ -127,18 +119,7 @@
       }
     }
 
-    // .nav-link{
-    //   padding-top: 1px !important;
-    //   padding-bottom: 1px !important;
-    // }
-
-    // .flex-column{
-    //   flex-direction: row !important;
-    // }
-
-    // .w-100 {
-    //   width: 33.3333% !important;
-    // }
+  
      /* ------Footer------- */
      .footer-div{
 
@@ -178,10 +159,6 @@
 }
 
 
-// .servicios__div{
-// width: 100% !important;
-// }
-
 
 .bootom-bar__items{
   p{
@@ -195,18 +172,214 @@
 .formulario{
   display: block;
 
-  .formulario-form{
-    width: 100%;
-    margin-left: px;
-  }
+    .formulario-form{
+      width: 100%;
+      margin-left: px;
+    }
 
-  .formulario-maps{
-    width: 100%;
+    .formulario-maps{
+      width: 100%;
+    }
+  }
   }
 }
+
+
+
+
+
+
+
+
+
+
+/* ------responsive tablet------ */     
+
+
+@media screen and (max-width: 991px){
+
+  .container{
+    width: 100%;
+    --bs-gutter-x:0.1rem;
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-sb{
+    flex-wrap: wrap;
+  }
+
+  h3{
+    font-size: 1.2rem!important;
+  }
+
+  /* ------top-bar------- */
+
+  .top-bar{
+
+  
+    .top-bar__div a{
+      display:none;
+  
+    }
+  
+    .top-bar__div i{
+      margin-left: 10px;
+      margin-right: 5px;
+      font-size: 0.7rem !important;
+    }
+  
+    .top-bar__div p{
+      margin-right: 10px;
+      font-size: 0.7rem !important;
+      // padding-bottom: 5px;
+    }
+  }
+  
+
+ /* ------nav-menu------- */
+
+ .logo-nav{
+  height: auto;
+ }
+
+  .logo-nav__img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    margin-bottom: 0px;
+
+      img{
+        height: 25px;
+      }
+  }
+
+  .logo-nav__menu {
+    height: auto;
+    margin-left: 0;
+
+        a {
+          font-size: 13px;
+        }
+
+        .btn-orange{
+          margin-top: 8px;
+          margin-bottom: 0px;
+        }
+
+       
+  }
+
+     /* ------servicios------- */
+.nav{
+  font-size: 0.8rem;
+  flex-direction: row !important;
+  justify-content: center;
 }
+  .servicios__div{
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+
+        p{
+          margin-bottom: 0;
+        }
+  }
+
+    /* ------hero------- */
+
+    .hero__div{
+          h1{
+            font-size: 1.8rem !important;
+          }
+    }
+    /* ------servicios------- */
+
+    .sitios__galery__div {
+
+    height: 110px;
+    }
+
+    .d-flex{
+      display: inline !important;
+    }
+    .div-serv{
+      img{
+        display: none !important;
+      }
+    }
+
+      .div-serv-txt{
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        li{
+          font-size: 0.8rem !important;
+        };
+      }
+
+            /* ------Footer------- */
+            .footer-div{
+
+              width: 50% !important;
+            font-size: 0.6rem !important;
+                    h2{
+                      font-size: 0.9rem !important;
+                    }
+            }
+                .footer-div__list{
+                  padding-left: 7.5% !important;
+                }
+                
+                .footer-div__list-cont p{
+                  margin-left: 2px;
+                }
+
+                .justify{
+                  padding-left: 10px;
+                }
+
+
+                  /* ------nosotros------- */     
+
+
+            .nosotros-text{
+            width: 100%;
+
+            p{
+            margin-left: 20px;
+            }
+            }
+
+            .nosotros-img{
+            width: 100%;
+            padding: 2px;
+            }
+
+
+            .bootom-bar__items{
+            p{
+            font-size: 0.8em !important;
+            }
+            }
+
+            .formulario{
+            display: block;
+
+            .formulario-form{
+            width: 100%;
+            margin-left: px;
+              }
+
+              .formulario-maps{
+              width: 100%;
+              }
+              }
 
 
 
-/* ------nosotros------- */     
+    }
 
+    

@@ -92,74 +92,21 @@
 
         .sitios__galery__div{
           display: flex;
+          flex-wrap: wrap;
           justify-content: center;
-          height: 150px;
-          width: 33.333%;
+          height: 100px;
+          margin-left: 10px;
+          margin-right: 10px;
+          // width: 33.333%;
               img{
-                height: 100px;
-                width: 150px;
-                padding: auto;
+                height: 90px;
+                width: 140px;
               }
         }
     }
     
-        
-  
-    
-     /*----------------menu servicios.html-----------------*/
-    
-    // .menu{
-    //   width: 25%;
-    //   color:#0064ab;
-    // }
-    
-    //   .menu__div{
-    //     display: flex;
-    //     align-items: center;
-    //     margin-bottom: 10px;
-    //     margin-top: 10px;
-    //     padding: 5px;
-    //     border-radius: 8px;
-    //     border:#0064ab 3.5px solid;
-    //   }
-    //       .menu__div:hover{
-    //         color: #fff;
-    //         background-color:#0064ab;
-    //       }
-    
-    //       .menu__div p{
-    //         padding-left: 5px;
-    //         font-weight:bold;
-    //       }
-    //           /* .menu__div p:hover{
-                
-    //           } */
-    
-    //       .menu img{
-    //         height: 45px;
-    //         width: 45px;
-    //       }
-    
-    // .contenido{
-    //   width: 75%;
-    // }
-    
-    //   .cont-1{
-    //     display: block;
-    //   }
-    //   .cont-2{
-    //     display: none;
-    //   }
-    //   .cont-3{
-    //     display: none;
-    //   }
-    //   .cont-4{
-    //     display: none;
-    //   }
-    //   .cont-5{
-    //     display: none;
-    //   }
-    
+      
+
     
     /*----------------pagina servicios-----------------*/
     
@@ -200,13 +147,7 @@
       flex-wrap: wrap;
       justify-content: space-around;
     }
-        // .cont-planillas__div{
-        //   width: 33.33333%;
-        //   display: flex;
-        //   align-items: center;
-        //   justify-content: center;
-        // }
-    
+       
        
    
     
